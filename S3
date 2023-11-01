@@ -1,0 +1,36 @@
+https://ahireharshal.com/cloud/
+
+
+
+1. A company currently storing a set of documents in the AWS Simple Storage Service, is worried about the potential loss if these documents are ever deleted. Which of the following can be used to ensure protection from loss of the underlying documents in S3?
+
+A. Enable Versioning for the underlying S3 bucket.
+
+B. Copythe bucket data to an EBS Volume as a backup.
+
+C. Createa Snapshot of the S3 bucket.
+
+D. Enablean IAM Policy which does not allow deletion of any document from the S3 bucket.
+
+Ansewr : A. Enable Versioning for the underlying S3 bucket.
+
+==============================================================================================
+2. A company has a requirement for archival of 6TB of data. There is an agreement with the stakeholders for an 8-hour agreed retrieval time. Which of the following can be used as the MOST cost-effective storage option?
+
+A. AWS S3 Standard
+
+B. AWS S3 Infrequent Access
+
+C. AWS Glacier
+
+D. AWS EBS Volumes
+
+
+
+C. AWS Glacier
+Amazon Glacier is the perfect solution for this. Since the agreed time frame for retrieval is met at 8 hours, this will be the most cost effective option.
+
+===================================================================================================================
+
+
+
