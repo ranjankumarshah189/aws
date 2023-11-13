@@ -30,6 +30,19 @@ D. AWS EBS Volumes
 C. AWS Glacier
 Amazon Glacier is the perfect solution for this. Since the agreed time frame for retrieval is met at 8 hours, this will be the most cost effective option.
 
+
+=======================================================================================================================================================
+
+A company collection data for temperature, humidity, and atmospheric pressure in cities across multiple continents .the average volume of data that the company collects from each site daily is 500 GB .Each site has a high- speed internet connection.
+The company wants to aggregate the data from all these global sites as quickly as possible in a single Amazon s3 Bucket .The Solution must minimize operational complexity.
+
+===>> Turn on S3 Transfer Acceleration on the destination s3 bucket .use multipart upload to directly upload site data to the destination s3 bucket.
+
+
+2. A company needs the ability to analyze the log file of its proprietary application .The logs are stored in JSON formate in  an Amazon S3 bucket. Queries will be simple and will run 0n-demand .A solution architect needs to perform the analysis with minimal changes to the existing architecture. what should the solution architect do to meet these requirements with the LEAST amount of operational overhead?
+
+===>> Use Amazon Athena directly with Amazon s3 to run the queries as needed.
+
 ===================================================================================================================
 
 
